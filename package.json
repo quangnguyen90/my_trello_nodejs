@@ -1,0 +1,26 @@
+{
+  "name": "my_trello_nodejs",
+  "version": "1.0.0",
+  "description": "A simple trello web app by nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangnguyen90/my_trello_nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quangnguyen90/my_trello_nodejs/issues"
+  },
+  "homepage": "https://github.com/quangnguyen90/my_trello_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.26",
+    "nodemon": "^2.0.4"
+  }
+}
