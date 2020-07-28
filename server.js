@@ -13,8 +13,8 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.use('/api/tasks', taskRouter);
 
-app.get('/', function (req, res) {
-    res.send('Hello World')
+app.get('/', (req, res, next) => {
+    res.sendFile(path.join(__dirname, 'index.html'));
 })
 
 app.listen(3000);
